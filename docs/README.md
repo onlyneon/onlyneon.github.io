@@ -9,7 +9,7 @@ config:
     hero:
       name: Small Cloud
       tagline: Docs
-      text: 小微云文档舱
+      text: 小微云文档舱妈的
       image: /cloud_3d.png
       # actions:
       #   -
