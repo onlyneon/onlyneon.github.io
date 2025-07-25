@@ -15,7 +15,7 @@
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update",
-    "deploy-gh": "GH=1 yarn docs:build && bash scripts/deploy-gh.sh"
+    "deploy-gh": "pnpm run docs:build && bash scripts/deploy-gh.sh"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
