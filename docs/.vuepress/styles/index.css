@@ -1,15 +1,68 @@
 :root {
-  --vp-c-brand-1:#088361;
-  --vp-c-brand-2: #5cad8a;
-  --vp-c-bg: #eff1f5;
+
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(120deg, #5cad8a 30%, #088361);
   --vp-home-hero-tagline: var(--vp-c-text-2);
   --vp-home-hero-text: var(--vp-c-text-1);
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #5cad8a 50%, #5cad8a 50%);
   --vp-home-hero-image-filter: blur(44px);
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: #088361;                            /* 链接颜色、强调色 */
+  --vp-c-brand-2: #5cad8a;                            /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: #8cccd5;                            /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(60, 60, 67);                    /* 主要文本 */
+  --vp-c-text-2: rgba(60, 60, 67, 0.78);              /* 次要文本 */
+  --vp-c-text-3: rgba(60, 60, 67, 0.56);              /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: #eff1f5;                                    /* 主体背景 */
+  --vp-nav-bg-color: #eff1f5;                            /* 导航栏背景 */
+  --vp-nav-screen-bg-color: #fff;                     /* 移动端导航栏 */
+  --vp-local-nav-bg-color: #fff;                      /* 页面内导航栏 */
+  --vp-sidebar-bg-color: #e6e9ef;                     /* 侧边栏背景 */
+  --vp-code-block-bg: #f6f8fa;                        /* 代码块背景 */
 }
 
 [data-theme="dark"] {
-  --vp-c-bg: #121212;
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: #088361;                            /* 链接颜色、强调色 */
+  --vp-c-brand-2: #5cad8a;                            /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: #5086a1;                            /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(255, 255, 245, 0.86);           /* 主要文本 */
+  --vp-c-text-2: rgba(235, 235, 245, 0.6);            /* 次要文本 */
+  --vp-c-text-3: rgba(235, 235, 245, 0.38);           /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: #121212;                                 /* 主体背景 */
+  --vp-nav-bg-color: #1b1b1f;                         /* 导航栏背景 */
+  --vp-nav-screen-bg-color: #1b1b1f;                  /* 移动端导航栏 */
+  --vp-local-nav-bg-color: #1b1b1f;                   /* 页面内导航栏 */
+  --vp-sidebar-bg-color: #161618;                     /* 侧边栏背景 */
+  --vp-code-block-bg: #202127;                        /* 代码块背景 */
 }

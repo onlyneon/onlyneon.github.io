@@ -42,7 +42,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: '在 MIT 许可证下发布。',
-    copyright: '版权所有 © 2025 年至今 <a target="_blank" href="https://v2.vuepress.vuejs.org/">SmallCloud</a>',
+    copyright: '版权所有 © 2025 by <a target="_blank" href="https://smc.haion.cn/">HAION</a>',
   },
 
   /**

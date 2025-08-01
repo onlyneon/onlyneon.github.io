@@ -46,7 +46,7 @@ export default defineUserConfig({
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
      */
-    // blog: false, // 禁用博客
+    blog: false, // 禁用博客
     // blog: {
     //   postList: true, // 是否启用文章列表页
     //   tags: true, // 是否启用标签页
@@ -107,6 +107,9 @@ export default defineUserConfig({
       * markdown
       * @see https://theme-plume.vuejs.press/config/markdown/
       */
+     markdown: {
+      table: true,
+     }
     // markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content

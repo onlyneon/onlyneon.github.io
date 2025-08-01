@@ -21,16 +21,38 @@
  */
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
-const demoNote = defineNoteConfig({
-  dir: 'demo',
+const analysisNote = defineNoteConfig({
+  dir: 'analysis',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-  link: '/demo',
+  link: '/analysis',
   // 手动配置侧边栏结构
-  // sidebar: ['', 'foo', 'bar'],
+  sidebar: [{
+      text: '安康',
+      prefix: 'ankang',
+      collapsed: false,
+      items: [
+        {
+            text: '汉阴农商行',
+            link: 'hanyin'
+        },
+        {
+            text: '宁陕农商行',
+            link: 'ningshan'
+        },        
+        {
+            text: '旬阳农商行',
+            link: 'xunyang'
+        },        
+        {
+            text: '镇坪农商行',
+            link: 'zhenping'
+        }
+      ],
+  }],
   // 根据文件结构自动生成侧边栏
-  sidebar: 'auto',
+  // sidebar: 'auto',
 })
 
 /**
@@ -41,5 +63,5 @@ const demoNote = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [demoNote],
+  notes: [analysisNote],
 })

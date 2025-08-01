@@ -9,7 +9,7 @@ config:
     hero:
       name: Small Cloud
       tagline: Docs
-      text: 小微云文档舱妈的
+      text: 小微云文档舱
       image: /cloud_3d.png
       # actions:
       #   -
@@ -24,10 +24,10 @@ config:
     type: features
     features:
       -
-        title: 响应式布局
-        icon: 💻
-        details: 适配移动设备，PC，平板
-        link: /
+        title: 地市推广分析
+        icon: 🖥️
+        details: 各地市推广企业分析和行社概况
+        link: /analysis/
       -
         title: 博客 & 文档
         icon: 📖
