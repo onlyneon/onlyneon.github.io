@@ -29,18 +29,18 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://smc.haion.cn',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: '',
+    docsDir: 'docs',
+    docsBranch: '',
 
     /* 页内信息 */
-    // editLink: true,
+    editLink: true,
     // lastUpdated: true,
-    // contributors: true,
-    // changelog: false,
+    contributors: true,
+    changelog: false,
 
     /**
      * 博客
@@ -109,7 +109,7 @@ export default defineUserConfig({
       */
      markdown: {
       table: true,
-     }
+     },
     // markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
     //   annotation: true,   // 启用 annotation 语法  [+label]: content
@@ -183,5 +183,19 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
     // encrypt: {},
+    encrypt: {
+      rules: {
+        // 可以是 md 文件的相对路径，对该文件加密
+        // '前端/基础.md': '123456',
+        // 可以是 文件夹的路径，对该目录下所有文章加密
+        // '/notes/vuepress-theme-plume/': '123456',
+        // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
+        '/analysis/': '123456',
+        // 可以是 具体的某个页面的请求路径，对该页面加密
+        // '/article/f8dnci3/': '123456',
+        // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
+        // '^/(a|b)/': '123456',
+      }
+    }
   }),
 })
