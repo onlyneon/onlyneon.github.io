@@ -29,6 +29,22 @@ const analysisNote = defineNoteConfig({
   link: '/analysis',
   // 手动配置侧边栏结构
   sidebar: [{
+      text: '宝鸡',
+      prefix: 'baoji',
+      collapsed: false,
+      items: [{
+        text: '陈仓农商行',
+        link: 'chencang'
+      }]
+  },{
+    text: '汉中',
+    prefix: 'hanzhong',
+    collapsed: false,
+    items: [{
+      text: '洋县农商行',
+      link: 'yangxian'
+    }]
+  },{
       text: '安康',
       prefix: 'ankang',
       collapsed: false,

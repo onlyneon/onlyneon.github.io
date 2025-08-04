@@ -25,7 +25,7 @@ config:
     features:
       -
         title: 地市推广分析
-        icon: 🖥️
+        icon: 🔍
         details: 各地市推广企业分析和行社概况
         link: /analysis/
       -

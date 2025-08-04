@@ -15,6 +15,6 @@ export default defineNavbarConfig([
     text: '笔记',
     icon: 'line-md:coffee-loop',
     badge: '新',
-    items: [{ text: '地市分析', link: '/notes/analysis/README.md' }]
+    items: [{ text: '地市分析', icon: 'line-md:search-twotone', link: '/notes/analysis/README.md' }]
   },
 ])

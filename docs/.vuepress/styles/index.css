@@ -28,8 +28,8 @@
    * 背景色
    * -------------------------------------------------------------------------- */
 
-  --vp-c-bg: #eff1f5;                                    /* 主体背景 */
-  --vp-nav-bg-color: #eff1f5;                            /* 导航栏背景 */
+  --vp-c-bg: #fff;                                    /* 主体背景 */
+  --vp-nav-bg-color: #fff;                            /* 导航栏背景 */
   --vp-nav-screen-bg-color: #fff;                     /* 移动端导航栏 */
   --vp-local-nav-bg-color: #fff;                      /* 页面内导航栏 */
   --vp-sidebar-bg-color: #e6e9ef;                     /* 侧边栏背景 */

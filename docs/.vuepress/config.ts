@@ -109,6 +109,8 @@ export default defineUserConfig({
       */
      markdown: {
       table: true,
+      chat: true,
+      timeline: true,
      },
     // markdown: {
     //   abbr: true,         // 启用 abbr 语法  *[label]: content
