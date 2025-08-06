@@ -82,7 +82,7 @@ H~2~O
 
 [外部链接](https://github.com/pengzhanbo)
 
-![plume](/cloud_3d.png)
+![plume](/牛油果.png)
 
 **Badge：**
 
