@@ -6,9 +6,13 @@ permalink: /analysis/baoji/chencang/
 
 ## 行社概述
 
-电银经理 - 张卫 （<Plot>18992528997</Plot>）
+电银经理 - 杨芳 （<Plot>15029647236</Plot>）
 
-目前反馈接到指标任务后已经开始着手按照之前企业注册名单开始到下面企业进行推活跃度，对指标要求已经了解，后续有问题随时联系。
+::: timeline placement="between" horizontal
+- 暂未建立联系
+  time=xxxx-xx-xx 下午 xx:xx type=success card icon=mdi:call-outline
+
+:::
 
 ## 行业类型分布
 

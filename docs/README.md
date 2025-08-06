@@ -6,11 +6,12 @@ config:
     type: doc-hero
     # full: true
     # background: tint-plate
+    background: /shanxi.jpg
     hero:
       name: Small Cloud
-      tagline: Docs
+      tagline: 这是一个存储小微云文档的舱室
       text: 小微云文档舱
-      image: /cloud_3d.png
+      image: /牛油果.png
       # actions:
       #   -
       #     theme: brand

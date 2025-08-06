@@ -29,6 +29,9 @@ const analysisNote = defineNoteConfig({
   link: '/analysis',
   // 手动配置侧边栏结构
   sidebar: [{
+    text: '地市分析概述',
+    link: 'overview',
+  },{
       text: '宝鸡',
       prefix: 'baoji',
       collapsed: false,
@@ -43,6 +46,14 @@ const analysisNote = defineNoteConfig({
     items: [{
       text: '洋县农商行',
       link: 'yangxian'
+    }]
+  },{
+    text: '渭南',
+    prefix: 'weinan',
+    collapsed: false,
+    items: [{
+      text: '潼关农商行',
+      link: 'tongguan'
     }]
   },{
       text: '安康',
