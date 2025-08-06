@@ -21,6 +21,47 @@
  */
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
+const weeklyReportNote = defineNoteConfig({
+  dir: 'weekly-report',
+  link: '/weekly-report',
+  sidebar: [{
+    text: '从这里开始',
+    icon: 'carbon:idea',
+    items: [{
+      text: '概述',
+      link: 'overview',
+    }]
+  }, {
+    text: '小微企业云周报 7月21日 - 7月25日',
+    link: '2025-7-25',
+  }, {
+    text: '小微企业云周报 7月28日 - 8月1日',
+    link: '2025-8-1',
+  }, {
+    text: '小微企业云周报 8月4日 - 8月8日',
+    link: '2025-8-8',
+  }]
+})
+
+const summaryReportNote = defineNoteConfig({
+  dir: 'summary-report',
+  link: '/summary-report',
+  sidebar: [{
+    text: '从这里开始',
+    icon: 'carbon:idea',
+    items: [{
+      text: '概述',
+      link: 'overview',
+    }]
+  },{
+    text: '安康审计中心交流总结',
+    link: 'ankang',
+  }, {
+    text: '桐川审计中心交流总结',
+    link: 'tongchuan',
+  }]
+})
+
 const analysisNote = defineNoteConfig({
   dir: 'analysis',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
@@ -29,8 +70,12 @@ const analysisNote = defineNoteConfig({
   link: '/analysis',
   // 手动配置侧边栏结构
   sidebar: [{
-    text: '地市分析概述',
-    link: 'overview',
+    text: '从这里开始',
+    icon: 'carbon:idea',
+    items: [{
+      text: '概述',
+      link: 'overview',
+    }]
   },{
       text: '宝鸡',
       prefix: 'baoji',
@@ -38,6 +83,15 @@ const analysisNote = defineNoteConfig({
       items: [{
         text: '陈仓农商行',
         link: 'chencang'
+      },{
+        text: '太白农商行',
+        link: 'taibai'
+      },{
+        text: '千阳农商行',
+        link: 'qianyang'
+      },{
+        text: '渭滨农商行',
+        link: 'weibin'
       }]
   },{
     text: '汉中',
@@ -90,5 +144,5 @@ const analysisNote = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [analysisNote],
+  notes: [analysisNote, weeklyReportNote, summaryReportNote],
 })

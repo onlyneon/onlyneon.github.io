@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/cloud_3d.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/牛油果.png' }],
   ],
 
   bundler: viteBundler(),
@@ -41,6 +41,15 @@ export default defineUserConfig({
     // lastUpdated: true,
     contributors: true,
     changelog: false,
+
+    locales: {
+      '/': {
+        encryptButtonText: '放肆',
+        // encryptPlaceholder: '输入密码',
+        // encryptGlobalText: 'Only password can access this site',
+        encryptPageText: '大人，请输入密码才能看哦',
+      }
+    },
 
     /**
      * 博客
@@ -193,6 +202,8 @@ export default defineUserConfig({
         // '/notes/vuepress-theme-plume/': '123456',
         // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
         '/analysis/': '123456',
+        '/weekly-report/': '123456',
+        '/summary-report/': '123456'
         // 可以是 具体的某个页面的请求路径，对该页面加密
         // '/article/f8dnci3/': '123456',
         // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密

@@ -15,6 +15,10 @@ export default defineNavbarConfig([
     text: '笔记',
     icon: 'line-md:coffee-loop',
     badge: '新',
-    items: [{ text: '地市分析', icon: 'line-md:search-twotone', link: '/notes/analysis/README.md' }]
+    items: [
+      { text: '地市分析', icon: 'line-md:search-twotone', link: '/notes/analysis/overview.md' },
+      { text: '推广周报', icon: 'line-md:search-twotone', link: '/notes/weekly-report/overview.md' },
+      { text: '推广总结报告', icon: 'line-md:search-twotone', link: '/notes/summary-report/overview.md' },
+    ]
   },
 ])

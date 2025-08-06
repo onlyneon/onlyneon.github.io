@@ -18,7 +18,7 @@ import notes from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/cloud_3d.png',
+  logo: '/牛油果.png',
 
   appearance: true,  // 配置 深色模式
 
@@ -49,7 +49,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: '/cloud_3d.png',
+    avatar: '/牛油果.png',
     name: 'SmallCloudDocs',
     description: '小微云文档',
     // circle: true,

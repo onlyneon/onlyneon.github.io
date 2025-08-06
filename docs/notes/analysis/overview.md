@@ -10,7 +10,7 @@ permalink: /analysis/overview/
 | 宝鸡 | 安康 |
 | -- | -- |
 | [陈仓农商行](./baoji/chencang.md) | [汉阴农商行](./ankang/hanyin.md) |
-| xx | [宁陕农商行](./ankang/ningshan.md) |
-| xx | [旬阳农商行](./ankang/xunyang.md) |
-| xx | [镇坪农商行](./ankang/zhenping.md) |
+| [太白农商行](./baoji/taibai.md) | [宁陕农商行](./ankang/ningshan.md) |
+| [千阳农商行](./baoji/qianyang.md) | [旬阳农商行](./ankang/xunyang.md) |
+| [渭滨农商行](./baoji/weibin.md) | [镇坪农商行](./ankang/zhenping.md) |
 :::
