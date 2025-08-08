@@ -169,18 +169,6 @@ const resourceNote = defineNoteConfig({
     items: [{
       text: '汇总',
       link: 'index'
-    },{
-      text: '小微企业云操作手册',
-      link: 'manual',
-    },{
-      text: '小微团队工作记录（职责划分）',
-      link: 'doc1',
-    },{
-      text: '推广宣讲PPT',
-      link: 'ppt',
-    },{
-      text: '推广信息统计（每周五更新）',
-      link: 'report',
     }]
   }]
 })
