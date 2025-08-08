@@ -18,6 +18,7 @@ export default defineNavbarConfig([
     items: [
       { text: '地市分析', icon: 'line-md:search-twotone', link: '/notes/analysis/overview.md' },
       { text: '推广周报', icon: 'line-md:search-twotone', link: '/notes/weekly-report/overview.md' },
+      { text: '推广资源', icon: 'line-md:search-twotone', link: '/notes/resource/overview.md' },
       { text: '推广总结报告', icon: 'line-md:search-twotone', link: '/notes/summary-report/overview.md' },
     ]
   },

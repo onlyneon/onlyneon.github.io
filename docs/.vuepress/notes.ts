@@ -59,6 +59,9 @@ const summaryReportNote = defineNoteConfig({
   }, {
     text: '桐川审计中心交流总结',
     link: 'tongchuan',
+  }, {
+    text: '宝鸡审计中心交流总结',
+    link: 'baoji',
   }]
 })
 
@@ -136,6 +139,52 @@ const analysisNote = defineNoteConfig({
   // sidebar: 'auto',
 })
 
+const resourceNote = defineNoteConfig({
+  dir: 'resource',
+  link: '/resource',
+  sidebar: [{
+    text: '从这里开始',
+    icon: 'carbon:idea',
+    items: [{
+      text: '概述',
+      link: 'overview',
+    }]
+  },{
+    text: '推广视频',
+    prefix: 'video',
+    items: [{
+      text: '平台操作',
+      link: 'oper',
+    }]
+  },{
+    text: '推广图片',
+    prefix: 'image',
+    items: [{
+      text: '汇总',
+      link: 'index',
+    }]
+  },{
+    text: '推广文档',
+    prefix: 'doc',
+    items: [{
+      text: '汇总',
+      link: 'index'
+    },{
+      text: '小微企业云操作手册',
+      link: 'manual',
+    },{
+      text: '小微团队工作记录（职责划分）',
+      link: 'doc1',
+    },{
+      text: '推广宣讲PPT',
+      link: 'ppt',
+    },{
+      text: '推广信息统计（每周五更新）',
+      link: 'report',
+    }]
+  }]
+})
+
 /**
  * 导出所有的 note
  * 每一个 note 都应该填入到 `notes.notes` 数组中
@@ -144,5 +193,5 @@ const analysisNote = defineNoteConfig({
 export default defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [analysisNote, weeklyReportNote, summaryReportNote],
+  notes: [analysisNote, weeklyReportNote, summaryReportNote, resourceNote],
 })
